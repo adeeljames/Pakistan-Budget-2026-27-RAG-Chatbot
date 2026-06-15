@@ -37,6 +37,7 @@ CEREBRAS_MODEL = _get("CEREBRAS_MODEL", "zai-glm-4.7")
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+DOCS_DIR = os.path.join(DATA_DIR, "docs")
 PARENT_STORE_PATH = os.path.join(DATA_DIR, "parent_store.json")
 CHAT_HISTORY_PATH = os.path.join(DATA_DIR, "chat_history.json")
 

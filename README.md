@@ -196,14 +196,16 @@ Pakistan-Budget-2026-27-RAG-Chatbot/
 ├── config.py                   # Configuration (env vars + Streamlit secrets)
 ├── parent_store.json           # Parent document store (auto-generated)
 ├── requirements.txt            # Python dependencies
+├── LICENSE                     # MIT License
 ├── .env                        # API keys (not committed)
 ├── .gitignore                  # Git ignore rules
 ├── .streamlit/
 │   ├── config.toml             # Streamlit theme configuration
 │   └── secrets.toml.example    # Secrets template
-├── Annual_Budget_Statement.pdf # Official budget document
-├── Budget_in_Brief.pdf         # Budget summary document
-└── FM_Speech_Urdu.pdf          # Finance Minister speech (Urdu)
+└── docs/                       # Budget documents
+    ├── Annual_Budget_Statement.pdf  # Official budget (57 pages)
+    ├── Budget_in_Brief.pdf          # Budget summary (50 pages)
+    └── FM_Speech_Urdu.pdf           # FM Speech Urdu (53 pages)
 ```
 
 ---

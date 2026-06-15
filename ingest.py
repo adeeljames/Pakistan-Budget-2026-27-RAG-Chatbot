@@ -138,7 +138,7 @@ def main():
     print("📄 Loading PDF files...")
     all_docs = []
     for filename, language in config.PDF_FILES.items():
-        filepath = os.path.join(config.DATA_DIR, filename)
+        filepath = os.path.join(config.DOCS_DIR, filename)
         if not os.path.exists(filepath):
             print(f"   ⚠️  {filename} not found, skipping.")
             continue
